@@ -33,7 +33,7 @@ public class URLifyString {
 												one of {%,2,0} */
 		char[] str = new char[finalLength];
 		
-		str[finalLength-1] = '\0';
+		//str[finalLength-1] = '\0';
 		for (i = length - 1; i >= 0; i--) {
 			if (s[i] == ' ') {
 				str[finalLength - 3] = '%';
@@ -48,7 +48,6 @@ public class URLifyString {
 		
 		for(i=0;i<str.length;i++)
 			url = url+str[i];
-		
 		return url;
 	}
 }
