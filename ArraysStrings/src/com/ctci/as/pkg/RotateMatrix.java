@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cci.as.pkg;
+package com.ctci.as.pkg;
 
 /**
  * @author Harsha Govada
