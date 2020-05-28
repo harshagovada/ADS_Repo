@@ -6,7 +6,7 @@ package com.ctci.as.pkg;
 /**
  * @author Harsha Govada
  *
- *         From an MxN matrix, if an element is identified to be a 0, set the
+ *         From an M x N matrix, if an element is identified to be a 0, set the
  *         entire row and column elements to 0.
  */
 public class ZeroMatrix {
